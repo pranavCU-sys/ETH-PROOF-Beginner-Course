@@ -79,7 +79,7 @@ To compile the code, click on the "Solidity Compiler" tab in the left-hand sideb
 
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "pranavToken" contract from the dropdown menu, and then click on the "Deploy" button.
 
-   1. Deploy the MyToken contract to a supported Ethereum network.
+   1. Deploy the pranavToken contract to a supported Ethereum network.
 
    2. Once deployed, you can interact with the contract by calling the following functions:
 
@@ -96,10 +96,10 @@ Once the code is compiled, you can deploy the contract by clicking on the "Deplo
 
 ## Authors
 
-Metacrafter Chris  
-[@metacraftersio](https://twitter.com/metacraftersio)
+Pranav Shrivastava  
+[@pranavshrivastava](https://www.linkedin.com/in/pranav-shrivastava-654817207)
 
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This contract is licensed under the MIT License. SPDX-License-Identifier: MIT.
