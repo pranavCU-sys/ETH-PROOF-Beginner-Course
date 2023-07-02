@@ -5,14 +5,27 @@ This is a simple ERC-20 token contract implemented in Solidity. The contract all
 ## Requirements
 
  1. The contract has public variables that store the details about the coin:
+
     * `tokenName`:  A string representing the name of the token.
-    * `abbrv`: A string representing the abbreviation of the token.
+    * `tokenAbbrv`: A string representing the abbreviation of the token.
     * `totalSupply`: An unsigned integer representing the total supply of the token.
 
 
-## Getting Started
+  2. The contract has a mapping of addresses to balances:
 
-### Executing program
+     * `balances`: A mapping that associates addresses with their corresponding token balances.
+
+  3. The contract has a `mint` function that increases the total supply and the balance of the "sender" address by a given value:
+
+     * Parameters :
+
+       . `_address`: The address to which the tokens will be minted.
+       . `_value`: The amount of tokens to be minted.
+
+     * Actions :
+
+        . Increase the `totalSupply` by `_value`.
+        . Increase the balance of the `_address` by `_value`. 
 
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
