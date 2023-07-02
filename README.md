@@ -4,7 +4,7 @@ This is a simple ERC-20 token contract implemented in Solidity. The contract all
 
 ## Requirements
 
-### 1. The contract has public variables that store the details about the coin:
+ 1. The contract has public variables that store the details about the coin:
 
 
 ## Getting Started
