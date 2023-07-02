@@ -19,13 +19,13 @@ This is a simple ERC-20 token contract implemented in Solidity. The contract all
 
      * Parameters :
 
-       . `_address`: The address to which the tokens will be minted.
-       . `_value`: The amount of tokens to be minted.
+       * `_address`: The address to which the tokens will be minted.
+       * `_value`: The amount of tokens to be minted.
 
      * Actions :
 
-        . Increase the `totalSupply` by `_value`.
-        . Increase the balance of the `_address` by `_value`. 
+        * Increase the `totalSupply` by `_value`.
+        * Increase the balance of the `_address` by `_value`. 
 
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
